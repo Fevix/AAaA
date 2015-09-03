@@ -1,0 +1,45 @@
+{
+  "objectName" : "avalihealingchamber",
+  "printable" : true,
+  "rarity" : "Common",
+  "description" : "Your one-stop shop for all non-lethal injuries!",
+  "shortdescription" : "AutoDOC Chamber",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 1500,
+
+  "apexDescription" : "An automated physician. Impressive!",
+  "avianDescription" : "Faithful or grounded, our entire species could benefit from something like this.",
+  "floranDescription" : "Make walls more smaller, sssquish prisoner.",
+  "glitchDescription" : "Uninterested. A repair bay would be more beneficial.",
+  "humanDescription" : "I've had nightmares about being stuck in something like that.",
+  "hylotlDescription" : "Ergonomics took a back seat when the interior was designed.",
+  "avaliDescription" : "It stands for Automatic Diagnostic, Operation, and Check-up Chamber. One-stop medical attention in a conveniently claustrophobic cylinder.",
+
+  "inventoryIcon" : "avalihealingchambericon.png",
+  "orientations" : [
+    {
+      "dualImage" : "avalihealingchamber.png:<frames>",
+
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitPosition" : [4, 28],
+  "sitOrientation" : "lay",
+  "sitAngle" : 0,
+  "sitCoverImage" : "/objects/avaligeneric/lab/avalihealingchambercover.png",
+  "sitEmote" : "sleep",
+  "sitStatusEffects" : [
+    "regeneration4",
+    "nude"
+  ]
+}

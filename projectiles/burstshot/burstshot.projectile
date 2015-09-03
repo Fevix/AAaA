@@ -1,0 +1,32 @@
+{
+  "projectileName" : "burstshot",
+  
+  "damageKind" : "default",
+  
+  "animationCycle" : 1,
+  "frames" : "invisiblebullet.png",
+  "frameNumber" : 1,
+  "timeToLive" : 0.001,
+  
+  "speed" : 0.001,
+  
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "burstshot1",
+      "inheritDamageFactor" : 1
+	},
+	{
+      "action" : "projectile",
+      "type" : "burstshot2",
+      "fuzzAngle" : 1,
+      "inheritDamageFactor" : 1
+	},
+	{
+      "action" : "projectile",
+      "type" : "burstshot3",
+      "fuzzAngle" : 1,
+      "inheritDamageFactor" : 1
+	}
+  ]
+}

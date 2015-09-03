@@ -1,0 +1,33 @@
+{
+  "objectName" : "avalidreamcatcher2",
+  "rarity" : "Common",
+  "category" : "furniture",
+  "price" : 125,
+  "retainObjectParametersInItem" : true, 
+  "printable" : false,
+  "description" : "An amalgamation of thread, crystals and feathers to create intricate patterns.",
+  "shortdescription" : "Large Dreamcatcher",
+  "race" : "avali",
+
+  "apexDescription" : "What a primitive piece of decoration.",
+  "avianDescription" : "I hope none of these feathers are Avian.",
+  "floranDescription" : "They have big ssspiders on this planet.",
+  "glitchDescription" : "Observation. A primitive hanging decoration with audible properties.",
+  "humanDescription" : "Hey, this looks just like a dreamcatcher from Earth.",
+  "hylotlDescription" : "What a quaint decoration.",
+  "avaliDescription" : "Traditionally, packs add ribbons, feathers, crystals and other trinkets to the web to give a record of major events in their lives.", 
+
+  "inventoryIcon" : "avalidreamcatcher2icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "avalidreamcatcher2.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1
+
+    }
+  ]
+}
+

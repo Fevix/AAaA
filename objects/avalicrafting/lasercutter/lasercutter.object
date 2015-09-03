@@ -1,0 +1,39 @@
+{
+  "objectName" : "avalilasercutter",
+  "rarity" : "Common",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/metalworkstation.config",
+    "filter" : [ "metalworkstation", "anvil", "plain" ]
+  },
+  "printable" : false,
+  "description" : "It's like a mini rave party! Except it could cut your head off!",
+  "shortdescription" : "Laser Cutter",
+  "race" : "avali",
+  "category" : "crafting",
+  "price" : 200,
+
+  "apexDescription" : "This is so much easier than working the metal manually!",
+  "avianDescription" : "I think shining that in your eye would result in more than just blindness.",
+  "floranDescription" : "Color blinker melt metal, but only hot if Floran touch!",
+  "glitchDescription" : "Concern. Is this how the fleshy races feel when handling chainsaws?",
+  "humanDescription" : "I'mma firen mah lazar!",
+  "hylotlDescription" : "It's almost soothing watching the lasers' coordinated efforts to form a product.",
+  "avaliDescription" : "Apparently humans needed equipment over twice our size to create lasers even a fraction as powerful as these.",
+
+  "inventoryIcon" : "lasercuttericon.png",
+  "orientations" : [
+    {
+      "dualImage" : "lasercutter.png:<color>.<frame>",
+
+      "imagePosition" : [0, 0],
+      "frames" : 31,
+      "animationCycle" : 2.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+}

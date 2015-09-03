@@ -1,0 +1,23 @@
+{
+	"itemName" : "avalitier4flamethrower",
+	"inventoryIcon" : "avaliflamethrower.png",
+	"rarity" : "rare",
+  "tooltipKind" : "gun",
+	"shortdescription" : "FT4 Thaw",
+	"description" : "Self-oxidizing napalm; good for removing crabgrass.",
+	"dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+	"maxStack" : 1,
+	"level" : 4,
+	"image" : "avaliflamethrower.png",
+	"handPosition" : [0, 2],
+	"firePosition" : [10, -1],
+	
+	"fireTime" : 0.05,
+	"twoHanded" : true,
+	
+	"projectileType" : "napalm",
+    "projectile" : {
+	  "power" : 0.5434782, //This makes the DPS exactly 500 (For the dev's OCD)
+	  "speed" : 70
+    }
+}

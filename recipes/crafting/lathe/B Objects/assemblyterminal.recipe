@@ -1,0 +1,10 @@
+{
+	"input" : [
+		{ "item" : "roboticcraftingtable", "count" : 1 },
+		{ "item" : "aeromer", "count" : 5 },
+		{ "item" : "avalidisplay", "count" : 2 },
+		{ "item" : "circuitboard", "count" : 1 }
+	],
+	"output" : { "item" : "avaliassemblyterminal", "count" : 1 },
+	"groups" : [ "avalilathe", "objects", "tools", "all" ]
+}

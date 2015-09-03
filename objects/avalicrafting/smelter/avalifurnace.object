@@ -1,0 +1,50 @@
+{
+  "objectName" : "avalifurnace",
+  "rarity" : "Common",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/stonefurnace.config",
+    "filter" : [ "stonefurnace" ]
+  },
+  "description" : "I'm not quite sure what happened to the stone furnace...",
+  "shortdescription" : "Smelter",
+  "race" : "avali",
+  "subtitle" : "New fashioned smelting.",
+  "category" : "crafting",
+  "price" : 200,
+  "printable" : false,
+
+  "apexDescription" : "I can't figure out how it works...",
+  "avianDescription" : "Wait, wasn't a stone furnace used to build this?",
+  "floranDescription" : "Blue like cold, hot like sssun.",
+  "glitchDescription" : "Elation. Something more advanced than rocks.",
+  "humanDescription" : "It reminds me of a HAZMAT mask...",
+  "hylotlDescription" : "Much more fashionable than the ancient stone cubes that pass for smelteries anymore.",
+  "avaliDescription" : "Each core has a micro thorium reactor. Can't say it's the cleanest thing we've come up with, but it's better than uranium.",
+  
+  "lightColor" : [19, 95, 94],
+  "pointLight" : true,
+  "pointBeam" : 0.9,
+
+  "inventoryIcon" : "avalifurnaceicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "avalifurnace.png:<color>.<frame>",
+
+      "imagePosition" : [0, 0],
+      "frames" : 4,
+      "animationCycle" : 1,
+	  "lightPosition" : [2, 0],
+	  "pointAngle" : 90,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/campfire.wav",
+
+
+  "openSounds" : [ "/sfx/objects/campfire_use.wav" ],
+  "frameCooldown" : 67
+
+}

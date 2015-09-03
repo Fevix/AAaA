@@ -1,0 +1,38 @@
+{
+  "objectName" : "avaliassemblyterminal",
+  "rarity" : "Common",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/robotcraftingtable.config",
+    "filter" : [ "craftingtable", "plain", "roboticcraftingtable" ]
+  },
+  "printable" : false,
+  "description" : "Who needed that big lobster claw, anyway?",
+  "shortdescription" : "Assembly Terminal",
+  "race" : "avali",
+  "category" : "crafting",
+  "price" : 200,
+
+  "apexDescription" : "Ooh, this has a verbose log of actions taken during crafting!",
+  "avianDescription" : "I guess it's a bit easier to look at than the robotic crafting table...",
+  "floranDescription" : "This table look like other table Floran once get in fight with. Floran get metalman arm as prize.",
+  "glitchDescription" : "Speculation. The larger arm appears to have become obsolete.",
+  "humanDescription" : "It looks like it's performing surgery on itself.",
+  "hylotlDescription" : "At least this one comes with a stylish interface.",
+  "avaliDescription" : "You can control the welding arm by interfacing with the terminal wirelessly.",
+
+  "inventoryIcon" : "assemblyterminalicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "assemblyterminal.png:<color>.<frame>",
+
+      "imagePosition" : [0, 0],
+      "frames" : 22,
+      "animationCycle" : 2.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "objectName" : "avalilantern",
+  "rarity" : "Common",
+  "category" : "light",
+  "price" : 300,
+
+  "description" : "It's more for ambience than anything else.",
+  "shortdescription" : "Nakati Lantern",
+  "race" : "generic",
+  "printable" : false,
+  "hydrophobic" : true,
+
+  "apexDescription" : "As far as bioluminescence goes, that's pretty bright.",
+  "avianDescription" : "That would make some nice ceremonial lighting.",
+  "floranDescription" : "Fire in plant, but no burn. All fire should be like thisss.",
+  "glitchDescription" : "Speculation. It may be a bacterial culture as opposed to a decoration.",
+  "humanDescription" : "I bet if there was an ice cream in that color, it'd be a hit.",
+  "hylotlDescription" : "It's a shame such a beautiful light has to come from an overgrown microbial colony.",
+  "avaliDescription" : "It's both a biology experiment AND a good mood-setter for a romantic night with that special someone!",
+  
+  "lightColor" : [64, 128, 128],
+  "flickerDistance" : 0.5,
+  "flickerStrength" : 0.1,
+
+  "inventoryIcon" : "avalilanternicon.png",
+  "orientations" : [
+
+    {
+      "dualImage" : "avalilantern.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "frames" : 2,
+      "animationCycle" : 1,
+
+      "spaceScan" : 0.1,
+      "fgAnchors" : [ [0, -1] ]
+    },
+
+    {
+      "dualImage" : "avalilantern.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "frames" : 2,
+      "animationCycle" : 1,
+
+      "spaceScan" : 0.1,
+      "bgAnchors" : [ [0, 1] ]
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/electriclight.wav"
+
+}

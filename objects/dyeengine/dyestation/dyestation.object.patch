@@ -1,0 +1,14 @@
+[
+{ "op": "add", "path": "/dyeEngine/object/whitelist/-", "value": "avalidreamcatcher2" },
+{ "op": "add", "path": "/dyeEngine/object/whitelist/-", "value": "avaliholovision" },
+{ "op": "add", "path": "/dyeEngine/object/whitelist/-", "value": "avaliportrait" },
+{ "op": "add", "path": "/dyeEngine/object/whitelist/-", "value": "avalihologramtherm" },
+{ "op": "add", "path": "/dyeEngine/object/whitelist/-", "value": "avalihologramingot" },
+{ "op": "add", "path": "/dyeEngine/object/whitelist/-", "value": "avaliterminal4" },
+{ "op": "add", "path": "/dyeEngine/object/whitelist/-", "value": "avaliterminal5" },
+{ "op": "add", "path": "/dyeEngine/object/whitelist/-", "value": "avaliterminal6" },
+{ "op": "add", "path": "/dyeEngine/object/whitelist/-", "value": "avaliterminal7" },
+{ "op": "add", "path": "/dyeEngine/object/whitelist/-", "value": "avaliterminal8" },
+{ "op": "add", "path": "/dyeEngine/object/whitelist/-", "value": "avaliterminal9" },
+{ "op": "add", "path": "/dyeEngine/object/whitelist/-", "value": "avaliterminal10" }
+]

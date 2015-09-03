@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "graphene", "count" : 2 }
+  ],
+  "output" : { "item" : "aeromer", "count" : 1 },
+  "groups" : [ "avalilathe", "all", "other" ]
+}

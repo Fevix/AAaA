@@ -1,0 +1,10 @@
+{
+	"input" : [
+		{ "item" : "aeromer", "count" : 7 },
+		{ "item" : "aerogel", "count" : 1 },
+		{ "item" : "mediummetal", "count" : 1 },
+		{ "item" : "durasteelbar", "count" : 10 }
+	],
+	"output" : { "item" : "avalitier4combatrifle", "count" : 1 },
+	"groups" : [ "avalibench", "weapons", "all" ]
+}

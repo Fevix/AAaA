@@ -1,0 +1,48 @@
+{
+  "objectName" : "avalihologramingot",
+  "rarity" : "Common",
+  "printable" : false,
+  "description" : "A hologram displaying a metal ingot.",
+  "shortdescription" : "Hologram, Ingot",
+  "race" : "avali",
+  "category" : "decorative",
+  "price" : 100,
+  "retainObjectParametersInItem" : true, 
+
+  "apexDescription" : "It's just a metal ingot; nothing too interesting.",
+  "avianDescription" : "Is it an advertisement for ingots or something?",
+  "floranDescription" : "Is metal! Make sharp. Ssstab good!",
+  "glitchDescription" : "Afraid. Who would put a chunk of shell out on display like that?!",
+  "humanDescription" : "It's either an ingot or one of a glitch's vital organs.",
+  "hylotlDescription" : "Ah, metalworking. A fine trade indeed.",
+  "avaliDescription" : "Kits use holograms like these to memorize the periodic table of the elements before they are old enough to have neural implants.",
+
+  "lightColors" : {
+    "default" :  [100, 60, 16],
+    "red" : [128, 16, 16],
+    "blue" : [16, 32, 128],
+    "green" : [0, 128, 96],
+    "yellow" : [128, 128, 64],
+    "orange" : [100, 60, 16],
+    "pink" : [128, 128, 16],
+    "black" : [32, 32, 32],
+    "white" : [128, 128, 128]
+  },  
+  
+  "flickerDistance" : 0.05,
+  "flickerStrength" : 0.05,
+  
+  "inventoryIcon" : "avalihologramsmlicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "avalihologramingot.png:<color>",
+
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1
+
+    }
+  ]
+}

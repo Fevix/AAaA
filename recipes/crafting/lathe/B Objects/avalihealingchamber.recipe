@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "aeromer", "count" : 20 },
+	{ "item" : "aerogel", "count" : 8 },
+	{ "item" : "mediummetal", "count" : 10 },
+	{ "item" : "circuitboard", "count" : 1 }
+  ],
+  "output" : { "item" : "avalihealingchamber", "count" : 1 },
+  "groups" : [ "avalilathe", "all", "objects" ]
+}

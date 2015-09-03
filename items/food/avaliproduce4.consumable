@@ -1,0 +1,13 @@
+{
+  "itemName" : "avaliproduce4",
+  "rarity" : "Common",
+  "inventoryIcon" : "avaliproduce4.png",
+  "description" : "It's fairly tasteless, though the rind is kind of salty.",
+  "shortdescription" : "Muli Cluster",
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 10
+      }
+    ] ]
+}

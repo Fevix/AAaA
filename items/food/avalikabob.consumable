@@ -1,0 +1,17 @@
+{
+  "itemName" : "avalikabob",
+  "rarity" : "Common",
+  "inventoryIcon" : "avalikabob.png",
+  "description" : "Meat and fruit impaled on a stick. Cook it over a nanostove for a futuristic camping experience.",
+  "shortdescription" : "Avalon Shish Kabob",
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 45
+      },
+      {
+        "kind" : "mollyhealing1" 
+		}
+      
+    ] ]
+}

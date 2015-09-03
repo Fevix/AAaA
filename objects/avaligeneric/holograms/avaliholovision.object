@@ -1,0 +1,44 @@
+{
+  "objectName" : "avaliholovision",
+  "rarity" : "Common",
+  "printable" : false,
+  "description" : "A television in a convenient-to-carry stick.",
+  "shortdescription" : "Holovision Display",
+  "race" : "avali",
+  "category" : "decorative",
+  "price" : 100,
+  "retainObjectParametersInItem" : true, 
+
+  "apexDescription" : "I was under the impression avali preferred audio cues over visual cues.",
+  "avianDescription" : "It seems to be a recap of recent events.",
+  "floranDescription" : "Tried to ssstab. Picture of words appear on ssstabby.",
+  "glitchDescription" : "Disinterested.",
+  "humanDescription" : "Looks like my stocks are down again.",
+  "hylotlDescription" : "Television without a screen, more or less.",
+  "avaliDescription" : "Considering we have such poor eyesight, this sort of thing is a lot less useful in retrospect.",
+
+  "lightColors" : {
+    "default" :  [100, 60, 16],
+    "red" : [128, 16, 16],
+    "blue" : [16, 32, 128],
+    "green" : [0, 128, 96],
+    "yellow" : [128, 128, 64],
+    "orange" : [100, 60, 16],
+    "pink" : [128, 128, 16],
+    "black" : [32, 32, 32],
+    "white" : [128, 128, 128]
+  },  
+  "flickerDistance" : 0.05,
+  "flickerStrength" : 0.05,
+  
+  "inventoryIcon" : "avalihologramicon.png",
+  "orientations" : [
+    {
+	  "dualImage" : "avaliholovision.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      "spaceScan" : 0.1
+    }
+  ]
+}

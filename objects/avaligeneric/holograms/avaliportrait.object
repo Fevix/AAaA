@@ -1,0 +1,53 @@
+{
+  "objectName" : "avaliportrait",
+  "rarity" : "Common",
+  "printable" : false,
+  "description" : "A holographic image of an avali.",
+  "shortdescription" : "Hologram Portrait",
+  "race" : "avali",
+  "category" : "decorative",
+  "price" : 100,
+  "retainObjectParametersInItem" : true, 
+
+  "apexDescription" : "My god, those teeth are horrifying!",
+  "avianDescription" : "I wonder where I can get one of these.",
+  "floranDescription" : "Is not real not-birdman, but ssstab anyway.",
+  "glitchDescription" : "Observant. It appears to feature audio playback.",
+  "humanDescription" : "Cute little fella!",
+  "hylotlDescription" : "I must admit: these creatures are adorable, even with those razor teeth.",
+  "avaliDescription" : "It can be programmed to record audio messages from the individual it displays.",
+
+  "lightColors" : {
+    "default" :  [100, 60, 16],
+    "red" : [128, 16, 16],
+    "blue" : [16, 32, 128],
+    "green" : [0, 128, 96],
+    "yellow" : [128, 128, 64],
+    "orange" : [100, 60, 16],
+    "pink" : [128, 128, 16],
+    "black" : [32, 32, 32],
+    "white" : [128, 128, 128]
+  },  
+  "flickerDistance" : 0.05,
+  "flickerStrength" : 0.05,
+  
+  "inventoryIcon" : "avalihologramsmlicon.png",
+  "orientations" : [
+    {
+	  "dualImage" : "avaliportrait.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "frames" : 2,
+      "animationCycle" : 2.0,
+	  "fgAnchors" : [ [0, 2], [1, 2] ],
+      "spaceScan" : 0.1
+    },
+	{
+	  "dualImage" : "avaliportrait.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "frames" : 2,
+      "animationCycle" : 2.0,
+	  "bgAnchors" : [ [0, 1], [1, 1] ],
+      "spaceScan" : 0.1
+    }
+  ]
+}

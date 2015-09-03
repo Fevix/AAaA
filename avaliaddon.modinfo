@@ -1,0 +1,6 @@
+{
+  "name" : "Avali - Augments and Assortments",
+  "path" : ".",
+  "includes" : [ "FrackinUniverse" ],
+  "requires" : ["Avali"]
+}

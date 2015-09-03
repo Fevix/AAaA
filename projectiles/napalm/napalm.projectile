@@ -1,0 +1,25 @@
+{
+  "projectileName" : "napalm",
+  
+  "physics" : "grenadezbomb",
+  "hydrophobic" : true,
+  "damageKind" : "flamethrower",
+  "damageKindImage" : "icon.png",
+  
+  "animationCycle" : 1,
+  "frames" : "flamethrower.png",
+  "frameNumber" : 12,
+  "timeToLive" : 10,
+  "lightColor" : [235, 126, 2],
+  "damagePoly" : [ [-9, 0], [-6, -6], [0, -9], [6, -6], [9, 0], [6, 6], [0, 9], [-6, 6] ],
+  
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "molotovflame",
+      "fuzzAngle" : 45,
+      "inheritDamageFactor" : 0.1
+	}
+  ],
+    "emitters" : [ "flames" ]
+}

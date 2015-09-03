@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "stonefurnace", "count" : 1  },
+    { "item" : "aeromer", "count" : 10  },
+    { "item" : "aerogel", "count" : 12  },
+	{ "item" : "mediummetal", "count" : 5 }
+  ],
+  "output" : { "item" : "avalifurnace", "count" : 1 },
+  "groups" : [ "objects", "avalilathe", "all", "tools" ]
+}

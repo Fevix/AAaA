@@ -1,0 +1,22 @@
+[
+{
+"op":"replace",
+"path":"/avaliTemporaryLoot/0",
+"value":
+[1,{
+"pool":[
+{"weight" : 0.36, "item" : [ "money", 10]},
+{"weight" : 0.26, "item" : [ "money", 25]},
+{"weight" : 0.18, "item" : [ "money", 50]},
+{"weight" : 0.2, "item" : [ "avalitoken", 1]},
+{"weight" : 0.15, "item" : [ "avaliplant1", 1]},
+{"weight" : 0.15, "item" : [ "avaliplant2", 1]},
+{"weight" : 0.15, "item" : [ "avaliplant3", 1]},
+{"weight" : 0.15, "item" : [ "avaliplant4", 1]},
+{"weight" : 0.1, "item" : [ "avalikabob-recipe", 1]},
+{"weight" : 0.1, "item" : [ "avalicider-recipe", 1]}
+],
+"poolRounds":[[0.2,0],[0.8,3]],
+"levelVariance":[0,0],"allowDuplication":false}]
+}
+]

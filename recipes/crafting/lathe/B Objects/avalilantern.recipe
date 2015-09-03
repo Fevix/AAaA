@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "avaliaeroponics", "count" : 1  },
+    { "item" : "avaliplant2", "count" : 1  }
+  ],
+  "output" : { "item" : "avalilantern", "count" : 1 },
+  "groups" : [ "avalilathe", "all", "objects" ]
+}

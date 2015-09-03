@@ -1,0 +1,84 @@
+{
+  "objectName" : "avaliplant4",
+  "rarity" : "Common",
+  "category" : "farmable",
+  "description" : "The hollow inside contains a pale blue fluid that is commonly mixed with Piru Flour to make dough.",
+  "shortdescription" : "Muli Pod",
+  "objectType" : "farmable",
+  "printable" : false,
+
+  "apexDescription" : "Hey, this stuff comes in bunches just like bananas!",
+  "avianDescription" : "It certainly smells interesting...",
+  "floranDescription" : "Round purple pod good for sssquishhh.",
+  "glitchDescription" : "Intrigue. It appears to be some sort of durable fungal film encasing a liquid of some sort.",
+  "humanDescription" : "... is that a purple coconut?",
+  "hylotlDescription" : "It reminds me of my baby pictures.",
+  "avaliDescription" : "It's not fresh ammonia, but it will keep you alive in a pinch.",
+
+  "inventoryIcon" : "avaliplant4icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "avaliplant4.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+  
+
+  "interactionTransition" : {
+    "2" : {
+      "dropOptions" : [
+        0.3,
+        [
+          {
+            "name" : "avaliproduce4",
+            "count" : 3
+          },
+          {
+            "name" : "avaliplant4",
+            "count" : 1
+          }
+        ],
+        [
+          {
+            "name" : "avaliproduce4",
+            "count" : 2
+          },
+          {
+            "name" : "plantfibre",
+            "count" : 2
+          }
+        ],
+        [
+          {
+            "name" : "avaliproduce4",
+            "count" : 5
+          }
+        ]
+      ],
+      "command" : "die"
+    }
+  },
+  "growing" : {
+    "0" : {
+      "duration" : [300, 420],
+      "success" : 1,
+      "failure" : 3
+    },
+    "1" : {
+      "duration" : [300, 420],
+      "success" : 2,
+      "failure" : 3
+    }
+  },
+  "stageAlts" : {
+    "count" : 4,
+    "2" : 5
+  }
+}

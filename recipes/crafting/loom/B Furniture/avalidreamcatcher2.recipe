@@ -1,0 +1,9 @@
+{
+  "input" : [
+	{ "item" : "aerogel", "count" : 4 },
+    { "item" : "darkwoodmaterial", "count" : 7 },
+	{ "item" : "crystal", "count" : 3 }
+  ],
+  "output" : { "item" : "avalidreamcatcher2", "count" : 1 },
+  "groups" : [ "avaliloom", "objects", "all" ]
+}

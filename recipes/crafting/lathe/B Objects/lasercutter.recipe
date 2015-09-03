@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "metalworkstation", "count" : 1  },
+    { "item" : "laserdiode", "count" : 6  },
+    { "item" : "aeromer", "count" : 7  },
+    { "item" : "circuitboard", "count" : 1  }	
+  ],
+  "output" : { "item" : "avalilasercutter", "count" : 1 },
+  "groups" : [ "avalilathe", "objects", "tools", "all" ]
+}

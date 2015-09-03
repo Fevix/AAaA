@@ -1,0 +1,48 @@
+{
+  "objectName" : "avalihologramtherm",
+  "rarity" : "Common",
+  "printable" : false,
+  "description" : "It appears to be far too warm to be comfortable for an avali.",
+  "shortdescription" : "Hologram, Thermometer",
+  "race" : "avali",
+  "category" : "decorative",
+  "price" : 100,
+  "retainObjectParametersInItem" : true, 
+
+  "apexDescription" : "You'd think they'd just have it display a numeric value.",
+  "avianDescription" : "A hologram representing the ambient temperature.",
+  "floranDescription" : "All-feeling knower of warm warns Floran of dangerous fire.",
+  "glitchDescription" : "Dismissive. I have one of those built in.",
+  "humanDescription" : "This kind isn't toxic if you break the glass.",
+  "hylotlDescription" : "Thermodynamic measurements taken with a representation of a rustic device. Charming.",
+  "avaliDescription" : "The projector gives off a tone that raises or lowers its pitch with fluctuations in ambient thermal energy.",
+
+  "lightColors" : {
+    "default" :  [100, 60, 16],
+    "red" : [128, 16, 16],
+    "blue" : [16, 32, 128],
+    "green" : [0, 128, 96],
+    "yellow" : [128, 128, 64],
+    "orange" : [100, 60, 16],
+    "pink" : [128, 128, 16],
+    "black" : [32, 32, 32],
+    "white" : [128, 128, 128]
+  },  
+  
+  "flickerDistance" : 0.05,
+  "flickerStrength" : 0.05,
+  
+  "inventoryIcon" : "avalihologramsmlicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "avalihologramtherm.png:<color>.<frame>",
+
+      "imagePosition" : [0, 0],
+      "frames" : 2,
+      "animationCycle" : 5.0,
+
+      "spaceScan" : 0.1
+
+    }
+  ]
+}

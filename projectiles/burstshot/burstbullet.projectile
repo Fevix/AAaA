@@ -1,0 +1,17 @@
+{
+  "projectileName" : "burstbullet",
+  "frames" : "burstbullet.png",
+  "animationCycle" : 0.25,
+  "level" : 3,
+  "frameNumber" : 1,
+  "pointLight" : true,
+  "lightColor" : [255, 200, 120],
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/bulletexplosion/bulletexplosion.config"
+    }
+  ],
+  "speed" : 250,
+  "damageKind" : "default"
+}

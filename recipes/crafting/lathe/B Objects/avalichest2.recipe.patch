@@ -1,0 +1,4 @@
+[
+{"op":"replace","path":"/input/0","value":{"item":"aeromer","count":3}},
+{"op":"add","path":"/input/-","value":{"item":"mediummetal","count":2}}
+]

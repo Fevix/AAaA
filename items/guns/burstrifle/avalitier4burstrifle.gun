@@ -1,0 +1,33 @@
+{
+  "itemName" : "avalitier4burstrifle",
+  "inventoryIcon" : "avaliburstrifle.png",
+  "rarity" : "uncommon",
+  "tooltipKind" : "gun",
+  "description" : "The standard Avali pulsed rapid-fire weapon.",
+  "shortdescription" : "BR4 Avalanche",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "level" : 1,
+  "inspectionKind" : "gun",
+  "image" : "avaliburstrifle.png",
+  "recoilTime" : 0.4,
+  "handPosition" : [-7, -1],
+  "firePosition" : [16, 0],
+  "classMultiplier" : 0.1332,
+
+  "fireTime" : 0.4,
+  "twoHanded" : true,
+
+  "projectileType" : "burstshot",
+  "projectile" : {
+	"power" : 40,
+    "color" : [10, 255, 10]
+  },
+
+  "muzzleEffect" : {
+    "animation" : "/animations/muzzleflash/electromuzzle/electromuzzle.animation",    
+    "fireSound" : [ { "file" : "/sfx/gun/avali3burst.wav" } ]
+  }
+}
+
+
