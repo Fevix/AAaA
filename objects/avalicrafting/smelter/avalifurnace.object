@@ -8,7 +8,7 @@
     "paneLayoutOverride" : {
       "windowtitle" : {
         "title" : "  Avali Smelter",
-        "subtitle" : "  New fashioned smelting.",
+        "subtitle" : "New fashioned smelting.",
         "icon" : {
           "file" : "/interface/crafting/stonefurnace.png"
         }
