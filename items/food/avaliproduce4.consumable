@@ -5,9 +5,16 @@
   "description" : "It's fairly tasteless, though the rind is kind of salty.",
   "shortdescription" : "Muli Cluster",
   "effects" : [ [
-      {
-        "kind" : "food",
-        "amount" : 10
-      }
-    ] ]
+    {
+        "effect" : "foodheal10",
+        "duration" : 60
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 150
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ]
 }

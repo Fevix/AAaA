@@ -5,13 +5,29 @@
   "description" : "Meat and fruit impaled on a stick. Cook it over a nanostove for a futuristic camping experience.",
   "shortdescription" : "Avalon Shish Kabob",
   "effects" : [ [
-      {
-        "kind" : "food",
-        "amount" : 45
-      },
-      {
-        "kind" : "mollyhealing1" 
-		}
-      
-    ] ]
+    {
+        "effect" : "foodheal25",
+        "duration" : 120
+    },
+    {
+        "effect" : "runboost25",
+        "duration" : 60
+    },
+    {
+        "effect" : "jumpboost25",
+        "duration" : 60
+    },
+    {
+        "effect" : "maxenergyboost60",
+        "duration" : 120
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 330
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "emitters" : [ "drinking" ]
 }
