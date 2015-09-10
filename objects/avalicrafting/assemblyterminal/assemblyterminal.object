@@ -1,10 +1,20 @@
 {
   "objectName" : "avaliassemblyterminal",
+  "tags" : ["crafting","avali"],
   "rarity" : "Common",
   "interactAction" : "OpenCraftingInterface",
   "interactData" : {
-    "config" : "/interface/windowconfig/robotcraftingtable.config",
-    "filter" : [ "craftingtable", "plain", "roboticcraftingtable" ]
+    "config" : "/interface/windowconfig/crafting.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "  Avali Assembly Terminal",
+        "subtitle" : "Who needed that big lobster claw, anyway?",
+        "icon" : {
+          "file" : "/interface/crafting/roboticcraftingtable.png"
+        }
+      }
+    },
+    "filter" : [ "plain", "craftingtable", "ironcraftingtable", "roboticcraftingtable" ]
   },
   "printable" : false,
   "description" : "Who needed that big lobster claw, anyway?",

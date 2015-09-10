@@ -1,10 +1,20 @@
 {
   "objectName" : "avalilasercutter",
+  "tags" : ["crafting","avali"],
   "rarity" : "Common",
   "interactAction" : "OpenCraftingInterface",
   "interactData" : {
-    "config" : "/interface/windowconfig/metalworkstation.config",
-    "filter" : [ "metalworkstation", "anvil", "plain" ]
+    "config" : "/interface/windowconfig/crafting.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "  Avali Laser Cutter",
+        "subtitle" : "It's like a mini rave party! Except it could cut your head off!",
+        "icon" : {
+          "file" : "/interface/crafting/metalwork.png"
+        }
+      }
+    },
+    "filter" : [ "metalworkstation" ]
   },
   "printable" : false,
   "description" : "It's like a mini rave party! Except it could cut your head off!",
