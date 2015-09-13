@@ -1,5 +1,6 @@
 {
   "objectName" : "avaliterminal8",
+  "tags" : [ "avali", "electronic" ], 
   "printable" : false,
   "retainObjectParametersInItem" : true,
   "rarity" : "Common",

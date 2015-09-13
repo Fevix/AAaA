@@ -1,10 +1,11 @@
 {
   "objectName" : "avalihealingchamber",
+  "tags" : [ "avali", "electronic" ], 
   "printable" : true,
   "rarity" : "Common",
   "description" : "Your one-stop shop for all non-lethal injuries!",
   "shortdescription" : "AutoDOC Chamber",
-  "race" : "generic",
+  "race" : "avali",
   "category" : "furniture",
   "price" : 1500,
 

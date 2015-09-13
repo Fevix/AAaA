@@ -1,5 +1,6 @@
 {
   "objectName" : "avalihologramtherm",
+  "tags" : [ "avali", "electronic" ], 
   "rarity" : "Common",
   "printable" : false,
   "description" : "It appears to be far too warm to be comfortable for an avali.",
