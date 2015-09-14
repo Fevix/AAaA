@@ -1,5 +1,6 @@
 {
   "objectName" : "avalilantern",
+  "tags" : [ "avali", "light" ], 
   "rarity" : "Common",
   "category" : "light",
   "price" : 300,

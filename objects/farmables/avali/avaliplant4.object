@@ -1,5 +1,6 @@
 {
   "objectName" : "avaliplant4",
+  "tags" : [ "nature" ], 
   "rarity" : "Common",
   "category" : "farmable",
   "description" : "The hollow inside contains a pale blue fluid that is commonly mixed with Piru Flour to make dough.",
