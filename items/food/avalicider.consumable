@@ -1,9 +1,11 @@
 {
   "itemName" : "avalicider",
+  "price" : 5,
   "rarity" : "Common",
   "inventoryIcon" : "avalicider.png",
   "description" : "Slightly fermented kiri juice including a bit the ground-up rind and a dash of nakati.",
   "shortdescription" : "Kiri Cider",
+  "handPosition" : [7, 0],
   "effects" : [ [
     {
         "effect" : "slow",

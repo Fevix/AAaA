@@ -2,6 +2,7 @@
   "itemName" : "avalitier4combatrifle",
   "inventoryIcon" : "avalicombatrifle.png",
   "rarity" : "uncommon",
+  "price" : 600,
   "tooltipKind" : "gun",
   "description" : "The standard Avali semi-automatic weapon.",
   "shortdescription" : "CR4 Sleet",

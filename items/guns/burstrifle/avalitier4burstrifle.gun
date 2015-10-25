@@ -2,6 +2,7 @@
   "itemName" : "avalitier4burstrifle",
   "inventoryIcon" : "avaliburstrifle.png",
   "rarity" : "uncommon",
+  "price" : 500,
   "tooltipKind" : "gun",
   "description" : "The standard Avali pulsed rapid-fire weapon.",
   "shortdescription" : "BR4 Avalanche",
