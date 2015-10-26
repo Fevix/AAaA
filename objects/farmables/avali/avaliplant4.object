@@ -7,6 +7,7 @@
   "shortdescription" : "Muli Pod",
   "objectType" : "farmable",
   "printable" : false,
+  "price" : 150,
 
   "apexDescription" : "Hey, this stuff comes in bunches just like bananas!",
   "avianDescription" : "It certainly smells interesting...",
@@ -24,62 +25,23 @@
       "frames" : 1,
       "animationCycle" : 0.5,
 
-      "spaceScan" : 0.1,
+      "spaces" : [ [0, 0], [0, 1] ],
       "requireTilledAnchors" : true,
       "anchors" : [ "bottom" ]
 
     }
   ],
   
-
-  "interactionTransition" : {
-    "2" : {
-      "dropOptions" : [
-        0.3,
-        [
-          {
-            "name" : "avaliproduce4",
-            "count" : 3
-          },
-          {
-            "name" : "avaliplant4",
-            "count" : 1
-          }
-        ],
-        [
-          {
-            "name" : "avaliproduce4",
-            "count" : 2
-          },
-          {
-            "name" : "plantfibre",
-            "count" : 2
-          }
-        ],
-        [
-          {
-            "name" : "avaliproduce4",
-            "count" : 5
-          }
-        ]
-      ],
-      "command" : "die"
-    }
-  },
-  "growing" : {
-    "0" : {
-      "duration" : [300, 420],
-      "success" : 1,
-      "failure" : 3
+  "stages" : [
+    {
+      "duration" : [300, 420]
     },
-    "1" : {
-      "duration" : [300, 420],
-      "success" : 2,
-      "failure" : 3
+    {
+      "duration" : [300, 420]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "muliHarvest"
     }
-  },
-  "stageAlts" : {
-    "count" : 4,
-    "2" : 5
-  }
+  ]
 }
