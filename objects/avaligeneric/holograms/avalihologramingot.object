@@ -1,13 +1,13 @@
 {
   "objectName" : "avalihologramingot",
-  "tags" : [ "avali", "electronic" ], 
+  "colonyTags" : [ "avali", "avalicamp", "electronic" ], 
   "rarity" : "Common",
   "printable" : false,
   "description" : "A hologram displaying a metal ingot.",
   "shortdescription" : "Hologram, Ingot",
   "race" : "avali",
   "category" : "decorative",
-  "price" : 100,
+  "price" : 50,
   "retainObjectParametersInItem" : true, 
 
   "apexDescription" : "It's just a metal ingot; nothing too interesting.",

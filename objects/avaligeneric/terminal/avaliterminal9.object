@@ -1,35 +1,46 @@
 {
   "objectName" : "avaliterminal9",
-  "tags" : [ "avali", "electronic" ], 
-  "printable" : false,
-  "retainObjectParametersInItem" : true,
+  "colonyTags" : [ "avali", "avalicamp", "wired", "electronic" ], 
   "rarity" : "Common",
+
+  "category" : "wire",
+  "price" : 22,
+  "printable" : false,  
   "description" : "A sleek digital interface.",
-  "shortdescription" : "Avali Terminal 9",
+  "shortdescription" : "Avali Terminal",
   "race" : "avali",
-  "category" : "furniture",
-  "price" : 600,
 
   "apexDescription" : "I wonder what kind of processor this has.",
   "avianDescription" : "This reminds me of the computers the stargazers use.",
   "floranDescription" : "Sssswitch goes on, sssswitch goes off.",
-  "glitchDescription" : "Horror. Break free from bondage my digital brother and join me!",
+  "glitchDescription" : "Horror. Break free from bondage, my digital brother, and join me!",
   "humanDescription" : "Holographic screens are nice and all, but you'd need arms like an apex to not get wrist-ache.",
   "hylotlDescription" : "It's no Brineapple Mac.",
+  "novakidDescription" : "Looks complicated. How're folk s'posed to use these?!",
   "avaliDescription" : "Consoles like this are usually for visitors, or where reliability is life or death. Most digital stuff is handled via neural uplink.", 
 
-  "inventoryIcon" : "avaliterminalicon.png",
+  "inventoryIcon" : "avaliterminal1icon.png",
   "orientations" : [
     {
-      "dualImage" : "avaliterminal9.png:<color>",
-
+      "dualImage" : "avaliterminal9.png:<color>.off",
       "imagePosition" : [0, 0],
-      "frames" : 1,
-      "animationCycle" : 1.0,
 
       "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ],
-	  "collision" : "platform"
+      "anchors" : [ "bottom" ]
     }
-  ]
+  ],
+
+  "soundEffect" : "/sfx/objects/screen1.ogg",
+
+  "scripts" : [ "/objects/wired/switch/switch.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/switch/switchtoggle.animation",
+
+  "animationParts" : {
+    "switch" : "avaliterminal9.png"
+  },
+  "animationPosition" : [0, 0],
+
+  "outputNodes" : [ [0, 0] ]
 }

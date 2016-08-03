@@ -1,6 +1,6 @@
 {
   "objectName" : "avaliholovision",
-  "tags" : [ "avali", "electronic" ], 
+  "colonyTags" : [ "avali", "avalicamp", "electronic" ], 
   "rarity" : "Common",
   "printable" : false,
   "description" : "A television in a convenient-to-carry stick.",
@@ -35,7 +35,7 @@
   "inventoryIcon" : "avalihologramicon.png",
   "orientations" : [
     {
-	  "dualImage" : "avaliholovision.png:<color>",
+	  "dualImage" : "avaliholovision.png:<color>.<frame>",
       "imagePosition" : [0, 0],
       "frames" : 1,
       "animationCycle" : 1.0,

@@ -1,25 +1,23 @@
 {
   "itemName" : "avalicider",
-  "price" : 5,
-  "rarity" : "Common",
+  "rarity" : "Uncommon",
+  "price" : 75,
+  "category" : "preparedFood",
   "inventoryIcon" : "avalicider.png",
-  "description" : "Slightly fermented kiri juice including a bit the ground-up rind and a dash of nakati.",
+   "description" : "Slightly fermented kiri juice with some ground-up rind and a dash of nakati for seasoning.",
   "shortdescription" : "Kiri Cider",
-  "handPosition" : [7, 0],
   "effects" : [ [
     {
-        "effect" : "slow",
-        "duration" : 90
-    },
-    {
         "effect" : "rage",
-        "duration" : 90
-    },
-    {
-        "effect" : "wellfed",
-        "duration" : 180
+        "duration" : 120
     }
   ] ],
+  "foodValue" : 70,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
   "blockingEffects" : [
     "wellfed"
   ],

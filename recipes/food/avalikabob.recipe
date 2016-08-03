@@ -1,9 +1,9 @@
 {
   "input" : [
-    { "item" : "meatchunks", "count" : 1 },
+    { "item" : "alienmeat", "count" : 1 },
 	{ "item" : "neonmelon", "count" : 1 },
 	{ "item" : "avaliproduce1", "count" : 1 }
   ],
   "output" : { "item" : "avalikabob", "count" : 1 },
-  "groups" : [ "kitchen", "consumables" ]
+  "groups" : [ "kitchen", "mains" ]
 }

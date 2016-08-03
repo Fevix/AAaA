@@ -5,5 +5,5 @@
 	{ "item" : "avalibottle1", "count" : 1 }
   ],
   "output" : { "item" : "avalicider", "count" : 1 },
-  "groups" : [ "kitchen", "consumables" ]
+  "groups" : [ "kitchen", "drinks" ]
 }

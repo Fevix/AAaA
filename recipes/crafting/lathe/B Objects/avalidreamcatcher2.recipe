@@ -5,5 +5,6 @@
 	{ "item" : "crystal", "count" : 3 }
   ],
   "output" : { "item" : "avalidreamcatcher2", "count" : 1 },
-  "groups" : [ "avaliloom", "objects", "all" ]
+  "duration" : 0.1,
+  "groups" : [ "decoration", "avalilathe", "all" ]
 }

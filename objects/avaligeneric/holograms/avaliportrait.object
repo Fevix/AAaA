@@ -1,13 +1,13 @@
 {
   "objectName" : "avaliportrait",
-  "tags" : [ "avali", "pretty" ], 
+  "colonyTags" : [ "avali", "avalicamp", "electronic", "pretty" ], 
   "rarity" : "Common",
   "printable" : false,
   "description" : "A holographic image of an avali.",
   "shortdescription" : "Hologram Portrait",
   "race" : "avali",
   "category" : "decorative",
-  "price" : 100,
+  "price" : 75,
   "retainObjectParametersInItem" : true, 
 
   "apexDescription" : "My god, those teeth are horrifying!",
