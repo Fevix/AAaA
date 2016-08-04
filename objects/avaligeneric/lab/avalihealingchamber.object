@@ -1,6 +1,6 @@
 {
   "objectName" : "avalihealingchamber",
-  "tags" : [ "avali", "electronic" ], 
+  "colonyTags" : [ "avali", "avalicamp", "science", "electronic" ], 
   "printable" : true,
   "rarity" : "Common",
   "description" : "Your one-stop shop for all non-lethal injuries!",
@@ -10,11 +10,11 @@
   "price" : 1500,
 
   "apexDescription" : "An automated physician. Impressive!",
-  "avianDescription" : "Faithful or grounded, our entire species could benefit from something like this.",
-  "floranDescription" : "Make walls more smaller, sssquish prisoner.",
+  "avianDescription" : "Whether Faithful or Grounded, our entire species could benefit from something like this.",
+  "floranDescription" : "Make walls more smaller, can sssquish prisoner.",
   "glitchDescription" : "Uninterested. A repair bay would be more beneficial.",
-  "humanDescription" : "I've had nightmares about being stuck in something like that.",
-  "hylotlDescription" : "Ergonomics took a back seat when the interior was designed.",
+  "humanDescription" : "Brr... I've had nightmares about being stuck in something like this.",
+  "hylotlDescription" : "Clearly ergonomics took a back seat when the interior was designed...",
   "avaliDescription" : "It stands for Automatic Diagnostic, Operation, and Check-up Chamber. One-stop medical attention in a conveniently claustrophobic cylinder.",
 
   "inventoryIcon" : "avalihealingchambericon.png",

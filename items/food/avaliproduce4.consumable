@@ -2,21 +2,16 @@
   "itemName" : "avaliproduce4",
   "price" : 5,
   "rarity" : "Common",
+  "category" : "cookingIngredient",
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
   "inventoryIcon" : "avaliproduce4.png",
   "description" : "It's fairly tasteless, though the rind is kind of salty.",
   "shortdescription" : "Muli Cluster",
   "handPosition" : [7, 0],
-  "effects" : [ [
-    {
-        "effect" : "foodheal10",
-        "duration" : 60
-    },
-    {
-        "effect" : "wellfed",
-        "duration" : 150
-    }
-  ] ],
-  "blockingEffects" : [
-    "wellfed"
-  ]
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "foodValue" : 10,
+  "maxStack" : 1,
+  "blockingEffects" : [ "wellfed" ]
 }

@@ -1,9 +1,9 @@
 {
   "objectName" : "avalidreamcatcher2",
-  "tags" : [ "avali", "pretty" ], 
+  "colonyTags" : [ "avali", "avalicamp", "pretty" ], 
   "rarity" : "Common",
   "category" : "furniture",
-  "price" : 125,
+  "price" : 25,
   "retainObjectParametersInItem" : true, 
   "printable" : false,
   "description" : "An amalgamation of thread, crystals and feathers to create intricate patterns.",
@@ -16,6 +16,7 @@
   "glitchDescription" : "Observation. A primitive hanging decoration with audible properties.",
   "humanDescription" : "Hey, this looks just like a dreamcatcher from Earth.",
   "hylotlDescription" : "What a quaint decoration.",
+  "novakidDescription" : "Sure looks shiny. Wonder if the crystals mean anythin'?",
   "avaliDescription" : "Traditionally, packs add ribbons, feathers, crystals and other trinkets to the web to give a record of major events in their lives.", 
 
   "inventoryIcon" : "avalidreamcatcher2icon.png",

@@ -1,8 +1,0 @@
-{
-  "input" : [
-	{ "item" : "avaliracial2chest", "count" : 1 },
-	{ "item" : "avaliracial2pants", "count" : 1 }
-  ],
-  "output" : { "item" : "avaliracial2set", "count" : 1 },
-  "groups" : [ "avaliloom", "armors", "chest" ]
-}

@@ -1,0 +1,21 @@
+[
+  { "op": "add", "path": "/muli", "value": [
+    [0, {
+      "fill" : [
+        {"item" : [ "avaliplant4", 1]},
+        {"item" : [ "avaliproduce4", 1]}
+      ],
+      "pool" : [
+        {"weight" : 0.85, "item" : [ "avaliproduce4", 1]},
+        {"weight" : 0.05, "item" : [ "avaliplant4", 1]},
+        {"weight" : 0.1, "item" : [ "plantfibre", 1]}
+      ],
+      "poolRounds" : [
+        [0.2, 1],
+        [0.6, 2],
+        [0.2, 3]
+      ]
+    } ]
+  ] }
+]
+

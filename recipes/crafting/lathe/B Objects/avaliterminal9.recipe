@@ -1,10 +1,10 @@
 {
   "input" : [
-    { "item" : "mediummetal", "count" : 1  },
-    { "item" : "laserdiode", "count" : 1  },
+    { "item" : "mediummetal", "count" : 1  },    
     { "item" : "aeromer", "count" : 1  },
-    { "item" : "circuitboard", "count" : 1  }	
+    { "item" : "siliconboard", "count" : 1  }	
   ],
   "output" : { "item" : "avaliterminal9", "count" : 1 },
-  "groups" : [ "objects", "avalilathe", "all" ]
+  "duration" : 0.1,
+  "groups" : [ "wirings", "avalilathe", "all" ]
 }
