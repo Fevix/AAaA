@@ -1,32 +1,33 @@
 {
   "objectName" : "avaliassemblyterminal",
-  "tags" : ["crafting","avali"],
+  "colonyTags" : ["crafting", "avali"],
   "rarity" : "Common",
+  "price" : 250,
+  "description" : "Sleek, sophisticated, tech-assisted crafting.",
+  "shortdescription" : "Avali Assembly Terminal",
+  "race" : "avali",
+  "category" : "crafting",
+  "printable" : false,
+
   "interactAction" : "OpenCraftingInterface",
-  "interactData" : {
-    "config" : "/interface/windowconfig/crafting.config",
+    "interactData" : {
+    "config" : "/interface/windowconfig/craftingfurniture.config",
     "paneLayoutOverride" : {
       "windowtitle" : {
-        "title" : "  Avali Assembly Terminal",
-        "subtitle" : "Who needed that big lobster claw, anyway?",
+        "title" : " Assembly Terminal",
+        "subtitle" : " Sleek, sophisticated, tech-assisted crafting.",
         "icon" : {
-          "file" : "/interface/crafting/roboticcraftingtable.png"
+          "file" : "/interface/crafting/craftingicon.png"
         }
       }
     },
-    "filter" : [ "plain", "craftingtable", "ironcraftingtable", "roboticcraftingtable" ]
+    "filter" : [ "craftingfurniture", "craftingfurniture2" ]
   },
-  "printable" : false,
-  "description" : "Who needed that big lobster claw, anyway?",
-  "shortdescription" : "Assembly Terminal",
-  "race" : "avali",
-  "category" : "crafting",
-  "price" : 200,
 
   "apexDescription" : "Ooh, this has a verbose log of actions taken during crafting!",
-  "avianDescription" : "I guess it's a bit easier to look at than the robotic crafting table...",
+  "avianDescription" : "It's sort of hypnotic watching the arm go back and forth... back and forth... back...",
   "floranDescription" : "This table look like other table Floran once get in fight with. Floran get metalman arm as prize.",
-  "glitchDescription" : "Speculation. The larger arm appears to have become obsolete.",
+  "glitchDescription" : "Interest. The arm on this table looks technologically superior to my own.",
   "humanDescription" : "It looks like it's performing surgery on itself.",
   "hylotlDescription" : "At least this one comes with a stylish interface.",
   "avaliDescription" : "You can control the welding arm by interfacing with the terminal wirelessly.",
@@ -44,5 +45,10 @@
       "anchors" : [ "bottom" ]
 
     }
-  ]
+  ],
+
+  "recipeGroup" : "craftingfurniture",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+
 }
