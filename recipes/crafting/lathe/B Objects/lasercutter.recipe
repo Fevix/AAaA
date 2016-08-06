@@ -1,7 +1,6 @@
 {
   "input" : [
-    { "item" : "metalworkstation", "count" : 1  },
-    { "item" : "laserdiode", "count" : 6  },
+    { "item" : "craftinganvil", "count" : 1  },
     { "item" : "aeromer", "count" : 7  },
     { "item" : "circuitboard", "count" : 1  }	
   ],
