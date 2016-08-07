@@ -1,34 +1,37 @@
 {
   "objectName" : "avalilasercutter",
-  "tags" : ["crafting","avali"],
+  "colonyTags" : ["crafting", "avali"],
   "rarity" : "Common",
+  "price" : 200,
+  "description" : "It's like a mini rave party! Except it could cut your head off!",
+  "shortdescription" : "Avali Laser Cutter",
+  "race" : "avali",
+  "category" : "crafting",
+  "printable" : false,
+
   "interactAction" : "OpenCraftingInterface",
-  "interactData" : {
-    "config" : "/interface/windowconfig/crafting.config",
+    "interactData" : {
+    "config" : "/interface/windowconfig/craftinganvil.config",
     "paneLayoutOverride" : {
       "windowtitle" : {
-        "title" : "  Avali Laser Cutter",
-        "subtitle" : "It's like a mini rave party! Except it could cut your head off!",
+        "title" : " Laser Cutter",
+        "subtitle" : " It's like a mini rave party! Except it could cut your head off!",
         "icon" : {
-          "file" : "/interface/crafting/metalwork.png"
+          "file" : "/interface/crafting/craftinganvil3.png"
         }
       }
     },
-    "filter" : [ "metalworkstation" ]
+    "filter" : [ "craftinganvil", "craftinganvil2", "craftinganvil3", "craftingaccelerator", "craftingmanipulator", "craftingseparator" ],
+	"craftingSound" : "/sfx/interface/crafting_tech1.ogg"
   },
-  "printable" : false,
-  "description" : "It's like a mini rave party! Except it could cut your head off!",
-  "shortdescription" : "Laser Cutter",
-  "race" : "avali",
-  "category" : "crafting",
-  "price" : 200,
 
   "apexDescription" : "This is so much easier than working the metal manually!",
   "avianDescription" : "I think shining that in your eye would result in more than just blindness.",
   "floranDescription" : "Color blinker melt metal, but only hot if Floran touch!",
   "glitchDescription" : "Concern. Is this how the fleshy races feel when handling chainsaws?",
-  "humanDescription" : "I'mma firen mah lazar!",
+  "humanDescription" : "I'mma firin' mah lazor! ...Sorry, I couldn't help it.",
   "hylotlDescription" : "It's almost soothing watching the lasers' coordinated efforts to form a product.",
+  "novakidDescription" : "Heh. That there laser looks kinda familiar, don't it? Not sure I can cut metal with my finger, though.",
   "avaliDescription" : "Apparently humans needed equipment over twice our size to create lasers even a fraction as powerful as these.",
 
   "inventoryIcon" : "lasercuttericon.png",
@@ -41,9 +44,13 @@
       "animationCycle" : 2.5,
 
       "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ],
-      "collision" : "platform"
+      "anchors" : [ "bottom" ]
 
     }
-  ]
+  ],
+
+  "recipeGroup" : "craftinganvil",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+
 }
