@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "refinedaegisalt", "count" : 12 }
+  ],
+  "output" : { "item" : "avalicombatrifle", "data" : { "level" : 5, "shortdescription" : "CR5 Icebreaker", "rarity" : "Rare" }, "count" : 1 },
+  "groups" : [ "avalibench", "weapons", "all" ]
+}

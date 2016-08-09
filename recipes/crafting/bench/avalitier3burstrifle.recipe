@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "titaniumbar", "count" : 12 },
+    { "item" : "aerogel", "count" : 5 },
+  { "item" : "money", "count" : 200 }
+  ],
+  "output" : { "item" : "avaliburstrifle", "data" : { "level" : 3, "shortdescription" : "BR3 Avalanche" }, "count" : 1 },
+  "groups" : [ "avalibench", "weapons", "all" ]
+}

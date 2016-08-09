@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "tungstenbar", "count" : 12 },
+    { "item" : "aerogel", "count" : 5 },
+  { "item" : "money", "count" : 200 }
+  ],
+  "output" : { "item" : "avaliburstrifle", "data" : { "level" : 2, "shortdescription" : "BR2 Avalanche" }, "count" : 1 },
+  "groups" : [ "avalibench", "weapons", "all" ]
+}

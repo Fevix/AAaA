@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "tungstenbar", "count" : 16 },
+  { "item" : "money", "count" : 150}
+  ],
+  "output" : { "item" : "avaliflamer", "data" : { "level" : 2, "shortdescription" : "FT2 Frostfire" }, "count" : 1 },
+  "groups" : [ "avalibench", "weapons", "all" ]
+}

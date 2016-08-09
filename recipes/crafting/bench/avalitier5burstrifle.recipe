@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "refinedaegisalt", "count" : 12 },
+    { "item" : "aerogel", "count" : 5 }
+  ],
+  "output" : { "item" : "avaliburstrifle", "data" : { "level" : 5, "shortdescription" : "BR5 Avalanche", "rarity" : "Rare" }, "count" : 1 },
+  "groups" : [ "avalibench", "weapons", "all" ]
+}
