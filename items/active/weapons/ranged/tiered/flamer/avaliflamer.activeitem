@@ -1,0 +1,47 @@
+{
+  "itemName" : "avaliflamer",
+  "price" : 1500,
+  "inventoryIcon" : "avaliflamer.png",
+  "maxStack" : 1,
+  "rarity" : "common",
+  "description" : "A suppressive fire and support weapon, using actual fire.",
+  "shortdescription" : "FT2 Frostfire",
+  "level" : 2,
+  "tooltipKind" : "gun",
+  "weaponType" : "Flamethrower",
+  "itemTags" : ["weapon","ranged"],
+  "twoHanded" : true,
+  
+  "animation" : "/items/active/weapons/ranged/gun.animation",
+  "animationParts" : {
+    "butt" : "",
+    "middle" : "avaliflamer.png",
+    "barrel" : "",
+    "muzzleFlash" : ""
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fireStart" : [ "/sfx/gun/flamethrower_start.ogg" ],
+      "fireLoop" : [ "/sfx/gun/flamethrower_loop.ogg" ],
+      "fireEnd" : [ "/sfx/gun/flamethrower_stop.ogg" ]    }
+  },
+
+  "baseOffset" : [0.5, -0.7],
+  "muzzleOffset" : [2.3, -0.125],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "fire",
+
+  "primaryAbilityType" : "flamethrower",
+
+  "primaryAbility" : {
+    "baseDps" : 30,
+    "energyUsage" : 30
+  },
+
+  "altAbilityType" : "fuelairtrail",
+  "altAbility" : {},
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}
