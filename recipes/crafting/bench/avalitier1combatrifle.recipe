@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 12 },
+  { "item" : "money", "count" : 200 }
+  ],
+  "output" : { "item" : "avalicombatrifle", "data" : { "level" : 1, "shortdescription" : "CR1 Icebreaker" }, "count" : 1 },
+  "groups" : [ "avalibench", "weapons", "all" ]
+}

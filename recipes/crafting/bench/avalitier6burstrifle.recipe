@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "refinedaegisalt", "count" : 16 },
+    { "item" : "aerogel", "count" : 5 },
+    { "item" : "solariumstar", "count" : 16 }
+  ],
+  "output" : { "item" : "avaliburstrifle", "data" : { "level" : 6, "shortdescription" : "BR6 Avalanche", "rarity" : "Legendary" }, "count" : 1 },
+  "groups" : [ "avalibench", "weapons", "all" ]
+}
